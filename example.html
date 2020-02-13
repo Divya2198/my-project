@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dust to Shine</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="menu.css">
+<style>
+.container{
+float:left;
+width:60%
+ }
+.body{
+ background-image:url(C:\Users\Divya\Downloads\b1.jpeg);
+ background-size: cover;
+ background-position:center;
+}
+</style>
+</head>
+<body> 
+<!--<div style="float:left;width:40%;hieght:850px;background-color:rgb(56,65,95)" height="100%"> -->
+<h1 style="color:black;margin-left:auto;margin-right:auto;word-wrap:break-word;width:100%;font-family:Engravers MT;font-size:50px;text-align:center;margin-top:70px">DUST TO SHINE</h1>
+<p style="color:black;text-align:center;font-family:Lucida Sans">CLEAN WITH A CLICK</p>
+<!--<img src="C:\Users\Divya\Desktop\pic1.png" style="margin-left:auto;
+  margin-right: auto;width:69.5%;display:block"/>-->
+<!--</div>-->
+<!--<div class="container" style="height:788px;background-color:rgb(204, 204, 228)"><br><br>-->
+  <br><br>
+  <form >
+    <h2>LOGIN</h2>
+   <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" style="width:70%" placeholder="Username must be between 8 and 20 characters" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" name="pswd">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" style="width:70%" id="pwd" placeholder="Password must contain 1 uppercase, lowercase and number" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" name="pswd">
+    </div>
+    <button type="submit" class="btn btn-primary" onclick="window.location.href='service.html';">Login</button>
+<button type="submit" class="btn btn-primary" style="margin-left:25px" onclick="window.location.href='register.html';">Register</button>
+  </form>
+</div>
+</div>
+</body>
+</html>
